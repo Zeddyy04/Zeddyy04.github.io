@@ -1,0 +1,168 @@
+html{
+	scroll-behavior: smooth;
+}
+
+h1.unangulo{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 60px;
+	color: white;
+	font-family: sans-serif;
+}
+div.div1{		
+	background-image: url("C:/Users/USER/Pictures/Camera Roll/home.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	width: 100%;
+
+}
+.div1{
+	width: 100%;
+	height: 800px;
+	}
+.yes{
+	margin-left: 400px;
+	width: 300px;
+}
+.no{
+	margin-top: 60px;
+	width: 250px;
+	
+}
+
+ul.hover{ 
+	font-size: 150%;
+
+}
+ul {
+	list-style: none;
+	background-color: transparent;
+	position: fixed;
+	font-size: 130%;
+	display: inline-block;
+    align-items: center;	
+    color: #45505b;	
+  	margin-top: 10px;
+}
+
+a{
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	font-family: sans-serif;
+
+    color: #45505b;
+    padding: 19px 36px;
+    font-size: 15px;
+    border-radius: 36px;
+
+    float: left;
+    height: 50px;
+    transition: 0.3s;
+    text-align: center;
+    display: inline-block;	
+    
+}
+li {
+margin-top: 50px;
+position: relative;
+margin-left: -55px;
+font-size: 35%;
+
+color: #619e68;
+
+
+}
+li:hover a{
+	color: #fff;
+    background: #228b22;
+    display: block;
+    font-size: 16px;
+     padding: 10px 40px;
+     text-align: center;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.head1{
+	text-align: center;
+	font-family: sans-serif;
+	color: #45505b;
+}
+.parag1{
+	text-align: justify;
+	font-family: sans-serif;
+	margin-left:150px ;
+	margin-right:150px ;
+	line-height: 1.6;
+	font-style: italic;
+    text-indent: 43px;
+    font-size: 16px;
+
+
+
+}
+.parag2{
+	text-align: justify;
+	font-family: sans-serif;
+	font-style: italic;
+	margin-top: 50px;
+	margin-left: 450px;
+	margin-right:150px;
+	line-height: 1.6
+    text-indent: 43px;
+    font-size: 16px;
+
+}
+.card-image{
+	margin-left: 150px;
+	width: 280px;
+	height: 350px;
+	border-radius: 8px;
+	box-shadow: 10px 10px 20px #666666;
+	display: inline-block;
+	vertical-align: middle;
+	float:left;
+	-webkit-transition: margin 0.7s ease-out;
+    -moz-transition: margin 0.7s ease-out;
+    -o-transition: margin 0.7s ease-out;
+}
+img.card-image:hover{
+	cursor:pointer;
+    margin-top: 10px;
+}
+.card-image2{
+	margin-left: -300px;
+	width: 280px;
+	height: 350px;
+	border-radius: 8px;
+	box-shadow: 10px 10px 20px #666666;
+	display: inline-block;
+	vertical-align: middle;
+	float:left;
+	-webkit-transition: margin 0.7s ease-out;
+    -moz-transition: margin 0.7s ease-out;
+    -o-transition: margin 0.7s ease-out;
+}
+img.card-image2:hover{
+	cursor:pointer;
+    margin-top: 10px;
+}
+.card-image3{
+	margin-left: -300px;
+	width: 280px;
+	height: 350px;
+	border-radius: 8px;
+	box-shadow: 10px 10px 20px #666666;
+	display: inline-block;
+	vertical-align: middle;
+	float:left;
+	-webkit-transition: margin 0.7s ease-out;
+    -moz-transition: margin 0.7s ease-out;
+    -o-transition: margin 0.7s ease-out;
+}
+img.card-image3:hover{
+	cursor:pointer;
+    margin-top: 10px;
+}
