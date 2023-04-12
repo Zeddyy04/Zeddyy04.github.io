@@ -6,15 +6,25 @@ h1.unangulo{
 	text-align: center;
 	margin-top: 100px;
 	font-size: 60px;
-	color: white;
 	font-family: sans-serif;
+	color:#222;
+	transition:0.5s;
 }
+h1.unangulo:hover{
+	color:#fff;
+	text-shadow: 0 0 5px #03e9f4,
+	0 0 25px #03e9f4,
+	0 0 50px #03e9f4,
+	0 0 100px #03e9f4,
+	;
+}
+
 div.div1{		
-	background-image: url("./images/librarychair.JPG");
+	background-image: url("C:/Users/Dos/Downloads/hi.jpg");
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
-  	width: 100%;
+  	width:100%;
 
 }
 .div1{
@@ -22,33 +32,15 @@ div.div1{
 	height: 800px;
 	}
 .yes{
-	margin-left: 400px;
-	width: 300px;
+	margin-left: 100px;
+	width: 50%;
 }
 .no{
 	margin-top: 60px;
 	width: 250px;
 	
 }
-.services{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-bottom: 40px;
-	text-align: center;
-	margin-left: 700px;
-	font-size: 16px;
-}
-.service {
-	flex-basis: calc(33.33% - 20px);
-	margin-bottom: 20px;
-	border: 1px solid #ccc;
-	padding: 20px;
-	border-radius: 5px;
-	background-color: #fff;
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-	transition: all
-}
+
 
 ul.hover{ 
 	font-size: 150%;
@@ -88,10 +80,7 @@ margin-top: 50px;
 position: relative;
 margin-left: -55px;
 font-size: 35%;
-
 color: #619e68;
-
-
 }
 li:hover a{
 	color: #fff;
@@ -184,4 +173,28 @@ img.card-image2:hover{
 img.card-image3:hover{
 	cursor:pointer;
     margin-top: 10px;
+}
+#container {
+  width: 80%;
+  aspect-ratio: 2/1;
+  margin: auto;
+  border: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+}
+
+.blue {
+  background-color: white;
+  height:95%;
+  aspect-ratio: 1/2;
+}
+.blue, .green {
+  display: inline-block;
+  margin: 5px;
+  scroll-snap-align: center;
+}
+.pic1{
+	margin-left:10px;
 }
